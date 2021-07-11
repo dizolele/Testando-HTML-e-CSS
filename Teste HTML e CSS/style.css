@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+  }
+  
+  .navbar {
+    background-color: #1E1F26;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+  }
+  
+  .navbar ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 10px
+  }
+  
+  #title__nav {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  
+  .item_menu {
+  }
+  
+  #redtext {
+    color: red;
+    font-weight: 700;
+  }
+  
+  .navbar ul .item_menu:hover {
+    border-bottom: solid;
+    border-color: white;
+    color: white;
+  }
+  
+  .item_menu a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  #cart {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  #option__cart {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a:hover {
+    font-weight: 600;
+  }
+  
+  #search__input {
+    background-color: #1E1F26;
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  
+  #search__input:hover {
+    border: 1px solid gray;
+  }
+  
+  #search__button {
+    border-left: 1px solid gray;
+    border-top: none;
+    background-color: #1E1F26;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .destaque {
+    text-align: center;
+    margin-top: 0px;
+    padding: 100px;
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    background-image: url("https://amazonasatual.com.br/wp-content/uploads/2020/09/Bicicleta-Foto-Abraciclo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .destaque div {
+    width: 196px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .destaque p {
+    font-family: "Rock Salt" , cursive;
+    color: white;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+  
+  .destaque__button {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: x-large;
+    border: none;
+  }
+  
+  .destaque__button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+  .lista {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .lista__header {
+    text-align: center;
+    line-height: 0em;
+    font-family: "Montserrat", sans serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .lista__title {
+    text-transform: capitalize;
+  }
+  
